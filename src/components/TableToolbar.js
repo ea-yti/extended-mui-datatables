@@ -374,7 +374,7 @@ class TableToolbar extends React.Component {
                           data-testid={print + '-iconButton'}
                           aria-label={print}
                           disabled={options.print === 'disabled'}
-                          onClick={handlePrint}
+                          onClick={options.customPrint || handlePrint}
                           classes={{ root: classes.icon }}>
                           <PrintIcon />
                         </IconButton>

@@ -1,6 +1,6 @@
 {
-  "name": "mui-datatables",
-  "version": "3.7.1",
+  "name": "@eayti/mui-datatables",
+  "version": "3.8.1",
   "description": "Datatables for React using Material-UI",
   "main": "dist/index.js",
   "files": [
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gregnb/mui-datatables.git"
+    "url": "git+https://github.com/etienne95/extended-mui-datatables.git"
   },
   "keywords": [
     "material-ui",

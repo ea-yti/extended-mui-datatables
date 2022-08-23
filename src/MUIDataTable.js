@@ -155,6 +155,7 @@ class MUIDataTable extends React.Component {
             setCellHeaderProps: PropTypes.func,
             sortThirdClickReset: PropTypes.bool,
             sortDescFirst: PropTypes.bool,
+            customPrint: PropTypes.func,
           }),
         }),
       ]),

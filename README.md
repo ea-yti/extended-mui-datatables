@@ -34,7 +34,7 @@ Version 3 has been released! You can read about the [updates here](https://githu
 
 ## Install
 
-`npm install mui-datatables --save`
+`npm install @eayti/mui-datatables --save`
 
 If your project doesn't already use them, you need to install `@material-ui/core` and `@material-ui/icons` as well.
 
@@ -236,6 +236,7 @@ The component accepts the following props:
 |**`tableBodyMaxHeight`**|string||CSS string for the height of the table (ex: '500px', '100%', 'auto').
 |**`textLabels`**|object||User provided labels to localize text.
 |**`viewColumns`**|boolean or string|true|Show/hide viewColumns icon from toolbar. Possible values:<p><ul><li>true: Button is visiable and clickable.</li><li>false: Button is not visible.</li><li>disabled: Button is visible, but not clickable.</li></ul></p>
+|**`customPrint`**|function||Is called when print icon is pressed, replacing the default print behavior. `function() => void`
 
 ## Customize Columns
 
