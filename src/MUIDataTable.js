@@ -1311,7 +1311,7 @@ class MUIDataTable extends React.Component {
     );
   };
 
-  changePage = (page, e) => {
+  changePage = (page, target) => {
     this.setState(
       () => ({
         page: page,
@@ -1319,8 +1319,8 @@ class MUIDataTable extends React.Component {
       () => {
         this.setTableAction('changePage');
         if (this.options.onChangePage) {
-          console.log('MUI DATA TABLE', e.currentTarget);
-          this.options.onChangePage(this.state.page, e.currentTarget);
+          // console.log('MUI DATA TABLE', target);
+          this.options.onChangePage(this.state.page, target);
         }
       },
     );

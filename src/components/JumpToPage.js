@@ -43,7 +43,7 @@ function JumpToPage(props) {
   const classes = useStyles();
 
   const handlePageChange = event => {
-    console.log('JUMP TO PAGE', event.currentTarget);
+    // console.log('JUMP TO PAGE', event.currentTarget);
     props.changePage(parseInt(event.target.value, 10), event.currentTarget);
   };
 

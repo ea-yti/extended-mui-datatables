@@ -42,7 +42,7 @@ function TablePagination(props) {
   };
 
   const handlePageChange = (e, page) => {
-    console.log('TABLE PAGINATION', e.currentTarget);
+    // console.log('TABLE PAGINATION', e.currentTarget);
     props.changePage(page, e.currentTarget);
   };
 
