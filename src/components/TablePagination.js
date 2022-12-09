@@ -41,8 +41,8 @@ function TablePagination(props) {
     props.changeRowsPerPage(event.target.value);
   };
 
-  const handlePageChange = (_, page) => {
-    props.changePage(page);
+  const handlePageChange = (e, page) => {
+    props.changePage(page, e);
   };
 
   const { count, options, rowsPerPage, page } = props;
