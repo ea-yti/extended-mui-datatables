@@ -1319,7 +1319,8 @@ class MUIDataTable extends React.Component {
       () => {
         this.setTableAction('changePage');
         if (this.options.onChangePage) {
-          this.options.onChangePage(this.state.page, e);
+          console.log('MUI DATA TABLE', e.currentTarget);
+          this.options.onChangePage(this.state.page, e.currentTarget);
         }
       },
     );
